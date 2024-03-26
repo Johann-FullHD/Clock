@@ -13,7 +13,7 @@ def aktualisiere_uhr():
     uhr_label.after(1000, aktualisiere_uhr) # Setzt die Zeit fest, nach wie vielen Milisekunden die Uhr aktualisiert wird
 fenster = tk.Tk() # Erstellt Anzeigenfenster
 fenster.title("Uhr") # Beschreibt den Fenstertitel
-uhr_label = tk.Label(fenster, font=('calibri', 40, 'bold'), background='black', foreground='white') # Legt Design fest
+uhr_label = tk.Label(fenster, font=('calibri', 40, 'bold'), background='black', foreground='white') # Legt Design (Schriftart etc...) fest
 uhr_label.pack(anchor='center')
 aktualisiere_uhr()
 
